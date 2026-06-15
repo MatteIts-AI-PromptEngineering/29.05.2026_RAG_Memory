@@ -1,0 +1,15 @@
+# Chat e LLM
+ollama>=0.6.2
+
+# Vector database
+chromadb>=1.5.9
+
+# PDF → Markdown (usato in rag.ipynb)
+pymupdf4llm
+
+# Chunking (usato in rag.ipynb)
+langchain-text-splitters
+tiktoken  # richiesto da TokenTextSplitter
+
+# Interfaccia web (usato nell'esercizio Step 3)
+gradio
